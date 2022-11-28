@@ -60,4 +60,9 @@ public class AuthorController {
 		return new ResponseEntity<String>("Author deleted successfully", HttpStatus.OK);
 	}
 	
+	@GetMapping("/test")
+	public String test() {
+		return "working fine";
+	}
+	
 }
