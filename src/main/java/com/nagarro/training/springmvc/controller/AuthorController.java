@@ -62,7 +62,7 @@ public class AuthorController {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "working fine";
+		return "working fine!";
 	}
 	
 }
